@@ -1,1 +1,2 @@
 # Object-Detection
+The object detection works on the Viola-Jones algorithm, which was proposed by Paul Viola and Michael Jones. The aforementioned algorithm is based on machine learning. The first step involves training a cascade function with a large amount of negative and positive labeled images. Once the classifier is trained, identifying features, namely “HAAR Features,” are extracted from these training images. HAAR features are essentially rectangular features with regions of bright and dark pixels.
